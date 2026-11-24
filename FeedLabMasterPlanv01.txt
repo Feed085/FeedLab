@@ -1,0 +1,2055 @@
+# FEED LAB
+# MASTER PROJECT PLAN
+## Tam Məhsul, Biznes, Texniki Arxitektura və İnkişaf Planı
+
+**Layihə:** Feed Lab  
+**Şirkət:** FEED Agency  
+**Versiya:** 1.0  
+**Tarix:** 24 noyabr 2026  
+**Status:** Planlaşdırma mərhələsi  
+**Platforma:** Web-based Digital Project Marketplace  
+**Domen:** lab.feedagency.dev  
+**Əsas bazar:** Azərbaycan  
+**Əsas valyuta:** AZN  
+**Əsas istiqamət:** Elektronika və IoT layihələrinin satışı
+
+---
+
+# MÜNDƏRİCAT
+
+1. Layihənin ümumi təsviri
+2. Məqsəd və uzunmüddətli strategiya
+3. Hədəf auditoriya
+4. Platformanın biznes modeli
+5. Marketplace sistemi
+6. Layihə kateqoriyaları
+7. İstifadəçi və müəllif sistemi
+8. Layihələrin hazırlanması və yayımlanması
+9. Satış və ödəniş sistemi
+10. Müəllif gəlirləri və komissiyalar
+11. Lisenziya və müəllif hüquqları
+12. Refund və mübahisələrin idarə edilməsi
+13. Reytinq və rəy sistemi
+14. İcma və kommunikasiya
+15. Texniki dəstək sistemi
+16. Loyallıq və mükafatlandırma
+17. Bildiriş sistemi
+18. Fiziki məhsullar və çatdırılma
+19. Axtarış və kəşf sistemi
+20. Homepage və istifadəçi interfeysi
+21. Admin paneli
+22. Təhlükəsizlik və məlumatların qorunması
+23. Marketinq və istifadəçi cəlbi
+24. Müəlliflərin cəlb edilməsi
+25. Texniki arxitektura
+26. Frontend arxitekturası
+27. Backend arxitekturası
+28. Database arxitekturası
+29. API arxitekturası
+30. Fayl saxlama infrastrukturu
+31. Authentication və Authorization
+32. Ödəniş infrastrukturu
+33. Deployment və DevOps
+34. Monitoring və backup
+35. MVP planı
+36. Gələcək inkişaf mərhələləri
+37. Risklər və onların idarə olunması
+38. Açıq qalan qərarlar
+39. İcra ardıcıllığı
+40. Bütün məhsul sualları və cavabları
+41. Bütün texniki suallar və cavabları
+
+---
+
+# 1. LAYİHƏNİN ÜMUMİ TƏSVİRİ
+
+## 1.1. Feed Lab nədir?
+
+Feed Lab, FEED Agency tərəfindən yaradılacaq rəqəmsal layihə marketplace platformasıdır.
+
+Platformanın əsas məqsədi elektronika, proqramlaşdırma, IoT və mühəndislik sahələrində hazırlanmış layihələri vahid mərkəzdə toplamaq, müəlliflərə öz layihələrini satışa çıxarmaq, istifadəçilərə isə bu layihələri əldə etmək imkanı yaratmaqdır.
+
+Feed Lab sadəcə fayl satış platforması olmayacaq. Burada müəllif profilləri, layihə portfolioları, istifadəçi rəyləri, texniki dəstək, müəllif müraciətləri, loyallıq sistemi və icma funksiyaları da olacaq.
+
+Platforma FEED Agency ekosisteminin ayrıca məhsulu kimi fəaliyyət göstərəcək.
+
+## 1.2. Əsas konsepsiya
+
+Feed Lab üç əsas iştirakçı qrupunu birləşdirir:
+
+- Layihə hazırlayan müəlliflər.
+- Hazır layihələri əldə edən istifadəçilər.
+- Marketplace-i idarə edən FEED Agency komandası.
+
+Müəllif öz layihəsini platformaya təqdim edir. Admin layihəni yoxlayır və təsdiqləyir. Təsdiqlənmiş layihə satışa çıxarılır. İstifadəçi layihəni satın alır və şəxsi istifadə lisenziyası çərçivəsində fayllara giriş əldə edir.
+
+## 1.3. Platformanın əsas istiqaməti
+
+İlk mərhələdə yalnız elektronika və IoT sahəsinə fokuslanılır.
+
+Platformanın gələcəkdə digər texnologiya və proqramlaşdırma kateqoriyalarına genişlənməsi mümkündür.
+
+---
+
+# 2. MƏQSƏD VƏ UZUNMÜDDƏTLİ STRATEGİYA
+
+## 2.1. Əsas məqsəd
+
+Feed Lab-ın əsas məqsədi Azərbaycanda və gələcəkdə beynəlxalq bazarda rəqəmsal mühəndislik layihələri üçün etibarlı marketplace yaratmaqdır.
+
+## 2.2. Uzunmüddətli prioritet
+
+Əsas prioritet marketplace-in böyüməsidir.
+
+Yəni platformanın inkişaf strategiyası yalnız təhsil məzmunu və ya fiziki elektronika məhsulları üzərində qurulmayacaq.
+
+Əsas diqqət:
+
+- Layihə kataloqunun böyüməsi.
+- Müəllif sayının artırılması.
+- Satış həcminin yüksəldilməsi.
+- İstifadəçi etibarının yaradılması.
+- Təkrar alışların artırılması.
+- Marketplace brendinin gücləndirilməsi.
+
+## 2.3. Əsas dəyər təklifi
+
+**İstifadəçilər üçün:**
+
+- Hazır mühəndislik layihələrinə çıxış.
+- Layihələrin aydın təsviri.
+- Yoxlanılmış fayllar.
+- Müəlliflərlə əlaqə.
+- Satın alınmış layihələrə rahat giriş.
+
+**Müəlliflər üçün:**
+
+- Layihələrini satışa çıxarmaq.
+- Gəlir əldə etmək.
+- Müəllif profili yaratmaq.
+- Reytinq və etibar qazanmaq.
+- Daha çox alıcıya çatmaq.
+
+**Platforma üçün:**
+
+- Hər satışdan komissiya.
+- Böyüyən müəllif və layihə ekosistemi.
+- Davamlı rəqəmsal marketplace biznesi.
+
+---
+
+# 3. HƏDƏF AUDİTORİYA
+
+## 3.1. Əsas auditoriya
+
+Əsas auditoriya universitet tələbələridir.
+
+Xüsusilə:
+
+- Kompüter mühəndisliyi tələbələri.
+- Elektrik və elektronika mühəndisliyi tələbələri.
+- Elektronika ilə maraqlanan tələbələr.
+- Robototexnika tələbələri.
+- IoT sahəsində çalışan və öyrənən şəxslər.
+- Mühəndislik layihələri hazırlayan şəxslər.
+
+## 3.2. İkinci dərəcəli auditoriya
+
+- Mühəndislər.
+- Həvəskar elektronika istifadəçiləri.
+- Prototip hazırlayan şəxslər.
+- Kiçik texnologiya komandaları.
+- Müstəqil layihə müəllifləri.
+
+## 3.3. İstifadəçi ehtiyacları
+
+Platforma istifadəçiyə aşağıdakı problemlərin həllində kömək etməlidir:
+
+1. Hazır layihə tapmaq.
+2. Layihənin işləmə prinsipini anlamaq.
+3. Layihə fayllarını əldə etmək.
+4. Layihəni öz cihazında qurmaq.
+5. Texniki suallarını müəllifə yönləndirmək.
+6. Keyfiyyətli layihələri rəylərə əsasən seçmək.
+
+---
+
+# 4. PLATFORMANIN BİZNES MODELİ
+
+## 4.1. Əsas gəlir modeli
+
+Əsas gəlir modeli rəqəmsal layihə satışından komissiya əldə edilməsidir.
+
+Hər satışın gəliri aşağıdakı kimi bölünəcək:
+
+| Tərəf | Pay |
+|---|---:|
+| Müəllif | 80% |
+| Feed Lab | 20% |
+
+Nümunə:
+
+Bir layihə 50 AZN-ə satıldıqda:
+
+- Müəllif payı: 40 AZN.
+- Feed Lab payı: 10 AZN.
+
+Bu bölgü platformanın əsas komissiya qaydasıdır.
+
+Vergilər, ödəniş provayderinin komissiyası və digər əməliyyat xərclərinin bu bölgüyə necə təsir edəcəyi ayrıca maliyyə və hüquqi siyasətdə müəyyən edilməlidir.
+
+## 4.2. Əlavə gəlir imkanları
+
+Gələcəkdə aşağıdakılar nəzərdən keçirilə bilər:
+
+- Müəlliflər üçün əlavə tanıtım imkanları.
+- Seçilmiş layihələrin sponsorlu yerləşdirilməsi.
+- Fiziki məhsulların satışı.
+- Xüsusi xidmətlər.
+
+Bunlar hazırda təsdiqlənmiş gəlir mənbələri deyil, gələcək biznes imkanlarıdır.
+
+## 4.3. Əsas valyuta
+
+AZN platformanın əsas valyutası olacaq.
+
+Digər valyutalarda təxmini qiymət göstərilməsi nəzərdə tutulur.
+
+Əsas hesablaşma valyutası AZN-dir.
+
+---
+
+# 5. MARKETPLACE SİSTEMİ
+
+## 5.1. Marketplace-in əsas funksiyası
+
+İstifadəçi platformaya daxil olduqda layihələri araşdıra, kateqoriyalar üzrə axtara, layihə səhifəsinə baxa və satın ala bilməlidir.
+
+## 5.2. Layihə kartı
+
+Hər layihənin marketplace daxilində kartı olacaq.
+
+Kartda göstərilməsi nəzərdə tutulan məlumatlar:
+
+- Layihənin adı.
+- Əsas şəkil.
+- Qısa təsvir.
+- Qiymət.
+- Kateqoriya.
+- İstifadə olunan texnologiyalar.
+- Müəllif.
+- Reytinq.
+- Satış göstəriciləri.
+
+## 5.3. Layihə detalları səhifəsi
+
+Hər layihənin ayrıca detallı səhifəsi olmalıdır.
+
+Səhifənin bölmələri:
+
+1. Layihə adı.
+2. Şəkillər və vizual təqdimat.
+3. Layihənin təsviri.
+4. Layihənin məqsədi.
+5. İşləmə prinsipi.
+6. İstifadə olunan komponentlər.
+7. Texnologiyalar.
+8. Quraşdırma təlimatı.
+9. Lazım olan avadanlıqlar.
+10. Sistem tələbləri.
+11. Faylların siyahısı.
+12. Müəllif məlumatları.
+13. Reytinq və rəylər.
+14. Texniki sual-cavab bölməsi.
+15. Satınalma funksiyası.
+
+## 5.4. Satınalma sonrası
+
+İstifadəçi layihəni satın aldıqdan sonra:
+
+- Sifariş hesabında qeydə alınır.
+- Satın alınmış layihələr bölməsinə əlavə olunur.
+- Fayllara giriş hüququ verilir.
+- Layihə üçün texniki dəstək imkanları göstərilir.
+- Rəy yazmaq hüququ əldə edir.
+
+---
+
+# 6. LAYİHƏ KATEQORİYALARI
+
+## 6.1. İlkin kateqoriya
+
+Elektronika və IoT.
+
+## 6.2. Alt kateqoriyalar
+
+- Arduino.
+- ESP32.
+- Raspberry Pi.
+- IoT / Smart Home.
+- Robototexnika.
+- Sensorlar və avtomatlaşdırma.
+- Elektron sxemlər.
+- PCB layihələri.
+- NFC / RFID.
+- Bluetooth.
+- Wi-Fi layihələri.
+
+## 6.3. Gələcək kateqoriyalar
+
+İlk mərhələdə digər kateqoriyaların açılması prioritet deyil.
+
+Marketplace böyüdükcə yeni texniki sahələr əlavə edilə bilər.
+
+---
+
+# 7. İSTİFADƏÇİ VƏ MÜƏLLİF SİSTEMİ
+
+## 7.1. İstifadəçi rolları
+
+Platformada aşağıdakı rollar nəzərdə tutulur:
+
+| Rol | İmkanlar |
+|---|---|
+| Visitor | Layihələrə baxış və axtarış |
+| Registered User | Satınalma, rəy, profil və sifarişlər |
+| Verified Author | Layihə təqdim etmə və satış |
+| Moderator | Məzmun və icma nəzarəti |
+| Admin | Tam platforma idarəetməsi |
+
+## 7.2. Qeydiyyat
+
+Qeydiyyat aşağıdakı üsullarla həyata keçiriləcək:
+
+- E-mail və şifrə.
+- Google hesabı.
+
+Əlavə təhlükəsizlik mərhələləri:
+
+- E-mail təsdiqi.
+- Şifrə bərpası.
+- Sessiya idarəetməsi.
+- İki faktorlu autentifikasiya.
+
+## 7.3. Verified Author sistemi
+
+Hər istifadəçi avtomatik müəllif statusu əldə etməyəcək.
+
+Müəllif olmaq istəyən istifadəçi müraciət göndərməlidir.
+
+Müraciətdə:
+
+- Şəxsi məlumatlar.
+- Portfolio.
+- Əvvəlki layihələr.
+- Təcrübə və bacarıqlar.
+- Lazım olan əlavə məlumatlar.
+
+Admin müraciəti yoxlayır və təsdiq və ya rədd qərarı verir.
+
+Təsdiq alan istifadəçi Verified Author statusu əldə edir.
+
+## 7.4. Müəllif paneli
+
+Müəllif panelində aşağıdakılar olmalıdır:
+
+- Profil məlumatları.
+- Portfolio.
+- Layihələr.
+- Yeni layihə əlavə etmək.
+- Təsdiq gözləyən layihələr.
+- Satış statistikası.
+- Gəlirlər.
+- Komissiyalar.
+- Ödəniş tarixçəsi.
+- Reytinqlər.
+- Müəllif bildirişləri.
+- Texniki dəstək sorğuları.
+
+---
+
+# 8. LAYİHƏLƏRİN HAZIRLANMASI VƏ YAYIMLANMASI
+
+## 8.1. Layihə təqdim etmə
+
+Yalnız təsdiqlənmiş müəlliflər layihə təqdim edə biləcək.
+
+Müəllif layihə haqqında məlumatları və faylları yükləyir.
+
+## 8.2. Admin təsdiqi
+
+Layihələr avtomatik satışa çıxarılmayacaq.
+
+Hər layihə admin təsdiqindən keçməlidir.
+
+Təklif edilən yoxlama mərhələləri:
+
+1. Məlumatların tamlığı.
+2. Layihənin kateqoriyaya uyğunluğu.
+3. Faylların mövcudluğu.
+4. Faylların açılması.
+5. Layihənin təsvirə uyğunluğu.
+6. Texniki keyfiyyət.
+7. Müəllif hüquqları və lisenziya məlumatları.
+8. Zərərli fayl yoxlaması.
+
+## 8.3. Layihə statusları
+
+- Draft.
+- Submitted.
+- Under Review.
+- Approved.
+- Rejected.
+- Published.
+- Suspended.
+- Archived.
+
+## 8.4. İlkin kataloq
+
+Platformanın ilkin buraxılışında 20–30 keyfiyyətli və yoxlanılmış layihə olmalıdır.
+
+## 8.5. Layihələrin mənbəyi
+
+İlkin layihələr üç istiqamətdən təmin ediləcək:
+
+1. FEED Agency komandasının öz layihələri.
+2. Dəvət edilən müəlliflər.
+3. Sonrakı mərhələdə açıq müəllif müraciətləri.
+
+Bütün layihələr admin təsdiqinə tabedir.
+
+---
+
+# 9. SATIŞ VƏ ÖDƏNİŞ SİSTEMİ
+
+## 9.1. Satış prosesi
+
+1. İstifadəçi layihəni seçir.
+2. Layihənin detalları ilə tanış olur.
+3. Satınalma əməliyyatını başladır.
+4. Ödəniş provayderinə yönləndirilir və ya inteqrasiya edilmiş ödəniş pəncərəsindən istifadə edir.
+5. Ödəniş təsdiqlənir.
+6. Sifariş tamamlanır.
+7. Fayllara giriş hüququ verilir.
+8. Müəllif gəliri hesablanır.
+9. Platforma komissiyası qeydə alınır.
+
+## 9.2. Sifariş sistemi
+
+Hər sifariş unikal identifikatora sahib olmalıdır.
+
+Sifarişdə:
+
+- İstifadəçi.
+- Layihə.
+- Satış qiyməti.
+- Valyuta.
+- Ödəniş statusu.
+- Sifariş statusu.
+- Müəllif.
+- Müəllif payı.
+- Platforma komissiyası.
+- Tarix və vaxt.
+
+saxlanılmalıdır.
+
+## 9.3. Ödəniş statusları
+
+- Pending.
+- Processing.
+- Paid.
+- Failed.
+- Refunded.
+- Partially Refunded.
+
+## 9.4. Müəllif ödənişləri
+
+Müəlliflərin gəlirləri ayrıca hesablanmalıdır.
+
+Ödəniş provayderi və müəlliflərə pul köçürmə mexanizmi hələ seçilməyib.
+
+İlkin mərhələdə manual yoxlama və ödəniş prosesi mümkün variant kimi nəzərdən keçirilə bilər, lakin bu hələ yekun qərar deyil.
+
+---
+
+# 10. MÜƏLLİF GƏLİRLƏRİ VƏ KOMİSSİYALAR
+
+## 10.1. Komissiya modeli
+
+80% müəllif / 20% platforma.
+
+## 10.2. Müəllif təşviqləri
+
+Müəlliflərin aktivliyini artırmaq üçün aşağıdakılar nəzərdə tutulur:
+
+- Satış gəliri.
+- Reytinq sistemi.
+- Müəllif badge-ləri.
+- Seçilmiş müəllif yerləşdirməsi.
+- Aktiv və keyfiyyətli müəlliflər üçün bonuslar.
+
+Bonusların konkret məbləği və şərtləri sonradan müəyyən ediləcək.
+
+## 10.3. Müəllif statistikası
+
+Müəllif aşağıdakı statistikaları görə bilməlidir:
+
+- Ümumi satış.
+- Ümumi gəlir.
+- Platforma komissiyası.
+- Xalis müəllif gəliri.
+- Satış sayı.
+- Layihə üzrə satış.
+- Reytinq.
+- Gəlir tarixçəsi.
+
+---
+
+# 11. LİSENZİYA VƏ MÜƏLLİF HÜQUQLARI
+
+## 11.1. Əsas lisenziya
+
+Satın alınan rəqəmsal layihələr şəxsi istifadə üçün lisenziyalaşdırılır.
+
+Alıcı:
+
+- Layihəni öyrənə bilər.
+- Öz cihazında quraşdıra bilər.
+- Şəxsi məqsədlərlə istifadə edə bilər.
+- Şəxsi təcrübəsi üçün dəyişiklik edə bilər.
+
+Alıcı:
+
+- Orijinal faylları yenidən paylaşa bilməz.
+- Layihəni yenidən sata bilməz.
+- Faylları başqa platformada yayımlaya bilməz.
+- Layihəni öz kommersiya məhsulu kimi sata bilməz.
+
+## 11.2. Lisenziya məlumatı
+
+Hər layihənin satınalma səhifəsində lisenziya qaydaları aydın göstərilməlidir.
+
+## 11.3. Hüquqi sənədlər
+
+Hazırlanmalı sənədlər:
+
+- Terms of Service.
+- Privacy Policy.
+- Author Agreement.
+- Digital Project License.
+- Refund Policy.
+- Copyright / Takedown Policy.
+
+Bu sənədlər qüvvədə olan qanunvericiliyə uyğun hüquqi yoxlamadan keçirilməlidir.
+
+---
+
+# 12. REFUND VƏ MÜBAHİSƏLƏRİN İDARƏ EDİLMƏSİ
+
+## 12.1. Rəqəmsal məhsul refund qaydası
+
+Rəqəmsal layihələr üçün avtomatik və şərtsiz refund modeli seçilməyib.
+
+Refund xüsusi hallarda fərdi qaydada araşdırılır.
+
+Nümunələr:
+
+- Yanlış fayl təqdim olunması.
+- Natamam fayllar.
+- İşləməyən layihə.
+- Təsvirə uyğun olmayan məhsul.
+- Digər əsaslandırılmış problemlər.
+
+## 12.2. Qərar prosesi
+
+1. İstifadəçi müraciət edir.
+2. Admin sübutları yoxlayır.
+3. Müəllifin mövqeyi alınır.
+4. Problemin səbəbi araşdırılır.
+5. Refund barədə qərar verilir.
+6. Qərar istifadəçiyə bildirilir.
+
+Refund siyasəti tətbiq olunan istehlakçı hüquqları və qanunvericiliyin tələblərini nəzərə almalıdır.
+
+---
+
+# 13. REYTİNQ VƏ RƏY SİSTEMİ
+
+## 13.1. Reytinq
+
+1–5 ulduz sistemi.
+
+## 13.2. Yazılı rəy
+
+İstifadəçi layihə haqqında yazılı rəy əlavə edə bilər.
+
+## 13.3. Ətraflı qiymətləndirmə
+
+Qiymətləndirmə meyarları:
+
+- Layihənin keyfiyyəti.
+- İşləmə vəziyyəti.
+- Təlimatların aydınlığı.
+
+## 13.4. Media
+
+İstifadəçilər rəyə foto və video əlavə edə bilərlər.
+
+## 13.5. Verified Purchase
+
+Rəy yalnız layihəni həqiqətən satın almış istifadəçilər tərəfindən yazıla bilər.
+
+Bu qayda saxta rəylərin qarşısını almağa kömək edir.
+
+---
+
+# 14. İCMA VƏ KOMMUNİKASİYA
+
+## 14.1. Şərhlər və sual-cavab
+
+Layihə səhifəsində istifadəçilər sual verə və müəllifdən cavab ala bilməlidirlər.
+
+## 14.2. Şəxsi mesajlaşma
+
+İstifadəçilərlə müəlliflər arasında şəxsi mesajlaşma sistemi nəzərdə tutulur.
+
+## 14.3. Support Ticket
+
+Texniki problemlər və dəstək müraciətləri ticket sistemi vasitəsilə idarə olunacaq.
+
+## 14.4. Forum
+
+Forum funksiyası əvvəlki platforma konsepsiyasının icma hissəsinə daxildir, lakin MVP-də tətbiq ediləcəyi ayrıca təsdiqlənməyib.
+
+---
+
+# 15. TEXNİKİ DƏSTƏK SİSTEMİ
+
+## 15.1. Komanda modeli
+
+İlkin dəstək komandası kiçik olacaq:
+
+- 1 Admin.
+- 1–2 Moderator.
+
+Müəlliflər də öz layihələri ilə bağlı texniki suallara cavab verə bilərlər.
+
+## 15.2. Ticket statusları
+
+- Open.
+- In Progress.
+- Waiting for User.
+- Waiting for Author.
+- Resolved.
+- Closed.
+
+Bu statuslar təklif olunan iş axınıdır.
+
+## 15.3. Ticket məlumatları
+
+- Ticket ID.
+- İstifadəçi.
+- Əlaqəli layihə.
+- Problem kateqoriyası.
+- Təsvir.
+- Əlavə edilmiş fayllar.
+- Cavablar.
+- Məsul moderator.
+- Status.
+- Yaradılma və bağlanma vaxtı.
+
+---
+
+# 16. LOYALLIQ VƏ MÜKAFATLANDIRMA
+
+## 16.1. Points sistemi
+
+Platformada istifadəçi loyallıq sistemi olacaq.
+
+İstifadəçilər müəyyən fəaliyyətlərə görə xal qazana biləcəklər.
+
+## 16.2. Xal qazanma
+
+Təsdiqlənmiş əsas istiqamət alış və müəyyən edilmiş fəaliyyətlərə görə xal verilməsidir.
+
+## 16.3. Xalların istifadəsi
+
+Xallar endirim əldə etmək üçün istifadə edilə biləcək.
+
+## 16.4. Açıq qaydalar
+
+Hələ müəyyən edilməyənlər:
+
+- Hər alış üçün verilən xal.
+- Xalların pul qarşılığı.
+- Minimum istifadə həddi.
+- Xalların istifadə müddəti.
+- Refund zamanı xalın geri alınması.
+- Bonus kampaniyalarının şərtləri.
+
+Bu qaydalar ayrıca Loyalty Policy-də hazırlanmalıdır.
+
+---
+
+# 17. BİLDİRİŞ SİSTEMİ
+
+## 17.1. Fərdiləşdirilə bilən bildirişlər
+
+İstifadəçi hansı bildirişləri almaq istədiyini seçə bilməlidir.
+
+## 17.2. Bildiriş kateqoriyaları
+
+- Satınalmalar.
+- Ödənişlər.
+- Layihənin təsdiqi.
+- Layihənin rədd edilməsi.
+- Şərhlər.
+- Mesajlar.
+- Müəllif satışları.
+- Sistem yenilikləri.
+- Support ticket yenilikləri.
+
+## 17.3. Bildiriş kanalları
+
+İlkin olaraq tətbiqdaxili bildirişlər və e-mail bildirişləri nəzərdə tutula bilər.
+
+Push notification MVP üçün təsdiqlənmiş tələb deyil.
+
+---
+
+# 18. FİZİKİ MƏHSULLAR VƏ ÇATDIRILMA
+
+## 18.1. Fiziki məhsul imkanı
+
+Platformada gələcəkdə fiziki elektronika məhsullarının satışı da nəzərdə tutulur.
+
+Bu məhsullara komponentlər, elektronika dəstləri və layihə ilə əlaqəli avadanlıqlar daxil ola bilər.
+
+## 18.2. Çatdırılma ərazisi
+
+Fiziki məhsullar üçün ilkin çatdırılma ərazisi Azərbaycandır.
+
+## 18.3. Qiymətləndirmə
+
+Qiymət maya dəyəri və mənfəət əsasında hesablanacaq.
+
+Maya dəyərinə daxil olan elementlər:
+
+- Komponentlər.
+- İstehsal xərcləri.
+- Əmək.
+- Qablaşdırma.
+- Digər birbaşa xərclər.
+
+## 18.4. MVP statusu
+
+Fiziki məhsulların marketplace-ə daxil olması nəzərdə tutulsa da, ilk MVP-də onların tətbiq olunması ayrıca təsdiqlənməyib.
+
+İlk buraxılışda rəqəmsal layihə satışına üstünlük vermək daha sadə əməliyyat modeli yaradır.
+
+---
+
+# 19. AXTARIŞ VƏ KƏŞF SİSTEMİ
+
+## 19.1. Əsas axtarış
+
+İstifadəçilər layihə adı, təsvir və açar sözlər üzrə axtarış edə bilməlidirlər.
+
+## 19.2. Advanced Search
+
+Filtrlər:
+
+- Kateqoriya.
+- Qiymət.
+- Texnologiya.
+- Müəllif.
+- Reytinq.
+- Layihə tipi.
+
+## 19.3. AI Search
+
+Gələcəkdə istifadəçi təbii dildə axtarış edə biləcək.
+
+Məsələn:
+
+"ESP32 ilə hazırlanmış ağıllı ev layihəsi tap."
+
+AI axtarış ilkin MVP üçün təsdiqlənmiş tələb deyil; gələcək inkişaf istiqamətidir.
+
+---
+
+# 20. HOMEPAGE VƏ İSTİFADƏÇİ İNTERFEYSİ
+
+## 20.1. Homepage modeli
+
+Hybrid homepage seçilib.
+
+Marketplace vizual baxımdan əsas prioritet olacaq, lakin təhsil, icma və müəllif təqdimatları da yer alacaq.
+
+## 20.2. Homepage bölmələri
+
+Təklif edilən struktur:
+
+1. Header və navigation.
+2. Search bar.
+3. Featured Projects.
+4. Categories.
+5. Popular Projects.
+6. Latest Projects.
+7. Featured Authors.
+8. Free Projects.
+9. Community bölməsi.
+10. Educational content.
+11. Footer.
+
+## 20.3. Dizayn istiqaməti
+
+Hybrid dizayn:
+
+- Professional.
+- Modern Tech.
+
+## 20.4. Rənglər
+
+FEED Agency-nin mövcud rəng palitrası istifadə olunacaq.
+
+## 20.5. Logo
+
+FEED loqosu ilə birlikdə xüsusi LAB simvolu hazırlanacaq.
+
+## 20.6. Responsive dizayn
+
+İlk versiya web olacaq.
+
+Desktop və mobil brauzerlərdə işləməlidir.
+
+İlkin buraxılışda ayrıca native Android və iOS tətbiqi olmayacaq.
+
+---
+
+# 21. ADMIN PANELİ
+
+Admin paneli platformanın idarəetmə mərkəzi olacaq.
+
+## 21.1. Dashboard
+
+- Ümumi istifadəçi sayı.
+- Müəllif sayı.
+- Layihə sayı.
+- Satış sayı.
+- Gəlir.
+- Gözləyən təsdiqlər.
+- Açıq ticket-lər.
+- Refund müraciətləri.
+
+## 21.2. İstifadəçi idarəetməsi
+
+- İstifadəçilərə baxış.
+- İstifadəçi məlumatlarının idarə edilməsi.
+- Rol təyinatı.
+- Hesabın məhdudlaşdırılması.
+- Hesabın deaktivləşdirilməsi.
+
+## 21.3. Müəllif idarəetməsi
+
+- Müraciətlərin yoxlanılması.
+- Portfolioya baxış.
+- Təsdiq və rədd.
+- Verified Author statusu.
+- Müəllif statistikası.
+
+## 21.4. Layihə idarəetməsi
+
+- Yeni layihələr.
+- Təsdiq gözləyən layihələr.
+- Layihənin yoxlanılması.
+- Təsdiq.
+- Rədd.
+- Düzəliş tələb etmək.
+- Layihəni dayandırmaq.
+
+## 21.5. Maliyyə idarəetməsi
+
+- Sifarişlər.
+- Ödənişlər.
+- Komissiyalar.
+- Müəllif balansları.
+- Ödəniş tarixçəsi.
+- Refund-lar.
+
+## 21.6. İcma idarəetməsi
+
+- Rəylər.
+- Şərhlər.
+- Mesajlar üzrə moderasiya.
+- Ticket-lər.
+- Şikayətlər.
+
+## 21.7. Sistem idarəetməsi
+
+- Kateqoriyalar.
+- Kuponlar.
+- Loyallıq qaydaları.
+- Bildiriş şablonları.
+- Sistem parametrləri.
+- Audit log-lar.
+
+---
+
+# 22. TƏHLÜKƏSİZLİK VƏ MƏLUMATLARIN QORUNMASI
+
+## 22.1. Təhlükəsizlik səviyyəsi
+
+Enterprise-level təhlükəsizlik yanaşması seçilib.
+
+## 22.2. Əsas təhlükəsizlik mexanizmləri
+
+- 2FA.
+- RBAC.
+- Şifrələrin təhlükəsiz hash edilməsi.
+- HTTPS / TLS.
+- Input validation.
+- Rate limiting.
+- XSS müdafiəsi.
+- CSRF müdafiəsi.
+- Fayl yoxlaması.
+- Audit logging.
+- Database backup.
+- Monitoring.
+- Penetration testing.
+
+## 22.3. Fayl təhlükəsizliyi
+
+İstifadəçinin yüklədiyi fayllar yoxlanılmalıdır:
+
+- Fayl tipi.
+- MIME type.
+- Ölçü limiti.
+- Zərərli kod ehtimalı.
+- Antivirus yoxlaması.
+
+## 22.4. Admin təhlükəsizliyi
+
+Admin hesabları yüksək səlahiyyətə malik olduğundan ayrıca qorunmalıdır.
+
+Admin əməliyyatları audit log-da qeydə alınmalıdır.
+
+## 22.5. Təhlükəsizlik strategiyası
+
+Enterprise təhlükəsizlik səviyyəsi yalnız funksiyaların siyahısı deyil. Bu, inkişaf, test, deployment və əməliyyat proseslərinin hamısında tətbiq olunmalıdır.
+
+---
+
+# 23. MARKETİNQ VƏ İSTİFADƏÇİ CƏLBİ
+
+## 23.1. İlkin marketinq strategiyası
+
+Universitet klubları.
+
+## 23.2. Əsas kanallar
+
+- Elektronika klubları.
+- Robototexnika klubları.
+- Mühəndislik tələbə klubları.
+- Texnologiya tələbə birlikləri.
+
+## 23.3. Əməkdaşlıq modeli
+
+İlkin mərhələdə formal universitet əməkdaşlığından çox tələbə klubları ilə işləmək seçilib.
+
+## 23.4. İlk istifadəçilərin cəlbi
+
+İlkin məqsəd:
+
+- Layihə müəllifləri tapmaq.
+- İlk layihələri platformaya yerləşdirmək.
+- İlk alıcıları cəlb etmək.
+- Platforma haqqında tanınma yaratmaq.
+
+---
+
+# 24. MÜƏLLİFLƏRİN CƏLB EDİLMƏSİ
+
+## 24.1. İlkin müəllif mənbələri
+
+- FEED Agency komandası.
+- Dəvət edilən müəlliflər.
+- Açıq müraciət edən müəlliflər.
+
+## 24.2. Müəllif motivasiyası
+
+- 80% satış gəliri.
+- Reytinq.
+- Badge.
+- Featured Author statusu.
+- Aktivlik və keyfiyyət bonusları.
+
+## 24.3. Keyfiyyət nəzarəti
+
+Bütün müəlliflər təsdiqlənməli, bütün layihələr isə admin yoxlamasından keçməlidir.
+
+---
+
+# 25. TEXNİKİ ARXİTEKTURA
+
+## 25.1. Təsdiqlənmiş texnologiya stack-i
+
+| Sahə | Texnologiya |
+|---|---|
+| Frontend | React |
+| UI/CSS | Tailwind CSS |
+| UI Components | shadcn/ui |
+| Routing | React Router |
+| State Management | TanStack |
+| Form Validation | React Hook Form + Zod |
+| Backend | NestJS |
+| Database | MongoDB |
+| Database Integration | Mongoose |
+| Authentication | Custom |
+| API Communication | REST |
+
+Qeyd: React üçün TypeScript və Vite ilkin texniki arxitekturada təklif olunub, lakin ayrıca təsdiqlənmiş qərar kimi qeydə alınmayıb.
+
+## 25.2. Arxitektura yanaşması
+
+Təklif: Modular Monolith.
+
+Bu yanaşmada backend bir tətbiq kimi işləyəcək, lakin funksional modullara ayrılacaq.
+
+İlkin mərhələdə mikroservislərdən istifadə etmək məcburi deyil.
+
+## 25.3. Ümumi sistem axını
+
+```text
+User Browser
+     |
+     v
+React Frontend
+     |
+     v
+REST API
+     |
+     v
+NestJS Backend
+     |
+     +------ MongoDB
+     |
+     +------ File Storage
+     |
+     +------ Payment Provider
+     |
+     +------ Email Service
+     |
+     +------ Background Jobs
+```
+
+---
+
+# 26. FRONTEND ARXİTEKTURASI
+
+## 26.1. Əsas struktur
+
+Təklif edilən struktur:
+
+```text
+frontend/
+│
+├── src/
+│   ├── app/
+│   ├── assets/
+│   ├── components/
+│   │   ├── ui/
+│   │   ├── layout/
+│   │   ├── marketplace/
+│   │   ├── project/
+│   │   └── common/
+│   │
+│   ├── features/
+│   │   ├── auth/
+│   │   ├── projects/
+│   │   ├── authors/
+│   │   ├── orders/
+│   │   ├── payments/
+│   │   ├── reviews/
+│   │   ├── notifications/
+│   │   └── tickets/
+│   │
+│   ├── hooks/
+│   ├── lib/
+│   ├── services/
+│   ├── stores/
+│   ├── types/
+│   └── routes/
+│
+├── public/
+└── package.json
+```
+
+Bu struktur layihə böyüdükcə modulların ayrılmasını asanlaşdıracaq.
+
+## 26.2. Routing
+
+React Router.
+
+Protected routes vasitəsilə istifadəçi, müəllif və admin səhifələrinə giriş məhdudlaşdırılacaq.
+
+## 26.3. UI
+
+Tailwind CSS və shadcn/ui.
+
+## 26.4. State Management
+
+TanStack seçilib.
+
+İlkin arxitekturada TanStack Query server məlumatlarının idarə olunması üçün nəzərdə tutulur.
+
+Zustand global client state üçün təklif olunub, lakin ayrıca təsdiqlənməyib.
+
+## 26.5. Formlar
+
+React Hook Form + Zod.
+
+---
+
+# 27. BACKEND ARXİTEKTURASI
+
+## 27.1. NestJS
+
+Backend NestJS ilə hazırlanacaq.
+
+## 27.2. Təklif edilən struktur
+
+```text
+backend/
+│
+├── src/
+│   ├── auth/
+│   ├── users/
+│   ├── authors/
+│   ├── projects/
+│   ├── categories/
+│   ├── orders/
+│   ├── payments/
+│   ├── downloads/
+│   ├── reviews/
+│   ├── favorites/
+│   ├── comments/
+│   ├── messages/
+│   ├── notifications/
+│   ├── tickets/
+│   ├── loyalty/
+│   ├── commissions/
+│   ├── refunds/
+│   ├── admin/
+│   ├── analytics/
+│   ├── storage/
+│   ├── email/
+│   └── common/
+│
+├── test/
+├── config/
+└── main.ts
+```
+
+## 27.3. Modul məsuliyyətləri
+
+| Modul | Məsuliyyət |
+|---|---|
+| Auth | Giriş və autentifikasiya |
+| Users | İstifadəçi hesabları |
+| Authors | Müəllif müraciətləri |
+| Projects | Layihə idarəetməsi |
+| Categories | Kateqoriyalar |
+| Orders | Sifarişlər |
+| Payments | Ödənişlər |
+| Downloads | Fayl giriş hüquqları |
+| Reviews | Reytinqlər |
+| Notifications | Bildirişlər |
+| Tickets | Dəstək |
+| Loyalty | Xallar |
+| Admin | İdarəetmə |
+| Analytics | Statistikalar |
+
+---
+
+# 28. DATABASE ARXİTEKTURASI
+
+## 28.1. MongoDB
+
+Əsas database MongoDB olacaq.
+
+## 28.2. Mongoose
+
+NestJS ilə MongoDB arasında Mongoose istifadə ediləcək.
+
+## 28.3. Təklif olunan collections
+
+### İstifadəçilər
+
+- users
+- userProfiles
+- sessions
+- authorApplications
+- authorPortfolios
+
+### Marketplace
+
+- projects
+- projectVersions
+- projectFiles
+- categories
+- technologies
+
+### Satış
+
+- orders
+- payments
+- transactions
+- commissions
+- authorBalances
+- payouts
+- refunds
+
+### İstifadəçi fəaliyyəti
+
+- favorites
+- reviews
+- comments
+- messages
+- notifications
+- notificationPreferences
+
+### Dəstək
+
+- tickets
+- ticketMessages
+
+### Loyallıq
+
+- loyaltyAccounts
+- loyaltyTransactions
+- coupons
+
+### Sistem
+
+- auditLogs
+- securityEvents
+- systemSettings
+
+## 28.4. Database qaydaları
+
+- Hər əsas sənəd unikal ID daşımalıdır.
+- Maliyyə əməliyyatları izlənilə bilən olmalıdır.
+- Sifariş və ödəniş statusları uyğun saxlanmalıdır.
+- İstifadəçi məlumatları icazəsiz şəxslərə göstərilməməlidir.
+- Lazımi indekslər yaradılmalıdır.
+- Kritik əməliyyatlar üçün MongoDB transactions imkanları qiymətləndirilməlidir.
+
+---
+
+# 29. API ARXİTEKTURASI
+
+## 29.1. REST API
+
+Frontend və backend REST API ilə əlaqə saxlayacaq.
+
+## 29.2. API versiyası
+
+```text
+/api/v1/
+```
+
+## 29.3. Əsas endpoint qrupları
+
+```text
+/auth
+/users
+/authors
+/projects
+/categories
+/orders
+/payments
+/downloads
+/reviews
+/favorites
+/comments
+/messages
+/notifications
+/tickets
+/loyalty
+/admin
+```
+
+## 29.4. API qaydaları
+
+- Eyni cavab strukturu.
+- Aydın HTTP status kodları.
+- Input validation.
+- Authentication və authorization.
+- Error handling.
+- Pagination.
+- Filtering.
+- Rate limiting.
+
+## 29.5. API Documentation
+
+Swagger/OpenAPI və Postman kombinasiyası təklif olunur.
+
+Bu seçim hələ istifadəçi tərəfindən təsdiqlənməyib.
+
+---
+
+# 30. FAYL SAXLAMA İNFRASTRUKTURU
+
+## 30.1. Cloudflare R2
+
+İlkin texniki təklif Cloudflare R2-dir.
+
+Bu seçim yekun təsdiqlənmiş qərar deyil.
+
+## 30.2. Saxlanılacaq fayllar
+
+- ZIP.
+- PDF.
+- Source code.
+- PCB.
+- 3D model.
+- Şəkillər.
+- Video.
+
+## 30.3. Fayl təhlükəsizliyi
+
+Fayllar public bucket-də açıq saxlanılmamalıdır.
+
+Satınalma hüququ yoxlanıldıqdan sonra müddətli signed URL verilməsi nəzərdə tutulur.
+
+## 30.4. Fayl yükləmə prosesi
+
+1. Müəllif fayl yükləməyə başlayır.
+2. Backend icazəni yoxlayır.
+3. Fayl storage-a göndərilir.
+4. Fayl yoxlamadan keçir.
+5. Fayl layihə ilə əlaqələndirilir.
+6. Admin layihəni yoxlayır.
+7. Təsdiqdən sonra layihə yayımlanır.
+
+---
+
+# 31. AUTHENTICATION VƏ AUTHORIZATION
+
+## 31.1. Custom Authentication
+
+Öz autentifikasiya sistemimiz qurulacaq.
+
+## 31.2. Əsas funksiyalar
+
+- E-mail qeydiyyatı.
+- Şifrə ilə giriş.
+- Google OAuth.
+- E-mail verification.
+- Password reset.
+- Access token.
+- Refresh token.
+- Sessiya idarəetməsi.
+- 2FA.
+
+## 31.3. Authorization
+
+RBAC.
+
+İstifadəçinin roluna əsasən endpoint və əməliyyat icazələri yoxlanılacaq.
+
+---
+
+# 32. ÖDƏNİŞ İNFRASTRUKTURU
+
+## 32.1. Ödəniş provayderi
+
+Hələ seçilməyib.
+
+Azərbaycan bazarında işləyən provayderlər araşdırılmalıdır.
+
+## 32.2. Texniki tələblər
+
+- Secure checkout.
+- Webhook verification.
+- Payment status synchronization.
+- Idempotency.
+- Refund support.
+- Transaction records.
+- Error handling.
+
+## 32.3. Müəllif ödənişləri
+
+Müəlliflərə pul köçürmə mexanizmi ayrıca araşdırılmalıdır.
+
+---
+
+# 33. DEPLOYMENT VƏ DEVOPS
+
+## 33.1. Təklif olunan infrastruktur
+
+- React frontend hosting.
+- NestJS backend hosting.
+- MongoDB database.
+- File storage.
+- Domain və DNS.
+- HTTPS.
+- CI/CD.
+
+## 33.2. Mühitlər
+
+Development, Staging və Production.
+
+## 33.3. Docker
+
+Backend və lazım olan xidmətlərin konteynerləşdirilməsi nəzərdə tutulur.
+
+## 33.4. CI/CD
+
+GitHub Actions vasitəsilə:
+
+- Testlər.
+- Build.
+- Lint.
+- Deployment.
+
+avtomatlaşdırıla bilər.
+
+Hosting provayderi hələ seçilməyib.
+
+---
+
+# 34. MONITORING VƏ BACKUP
+
+## 34.1. Monitoring
+
+- API xətaları.
+- Database performansı.
+- Server resursları.
+- Ödəniş xətaları.
+- Təhlükəsizlik hadisələri.
+- Fayl yükləmə problemləri.
+
+## 34.2. Backup
+
+- Avtomatik database backup.
+- Ayrı backup saxlanması.
+- Bərpa testləri.
+- Backup siyasəti.
+
+## 34.3. Disaster Recovery
+
+Sistemin nasazlıqdan sonra bərpası üçün ayrıca prosedur hazırlanmalıdır.
+
+---
+
+# 35. MVP DEVELOPMENT PLAN
+
+## 35.1. MVP məqsədi
+
+İlk buraxılışın məqsədi işlək marketplace yaratmaqdır.
+
+İlk versiyada istifadəçi:
+
+1. Qeydiyyatdan keçə bilməlidir.
+2. Layihələrə baxa bilməlidir.
+3. Axtarış edə bilməlidir.
+4. Layihəni satın ala bilməlidir.
+5. Satın aldığı layihəni yükləyə bilməlidir.
+6. Rəy yaza bilməlidir.
+
+Müəllif:
+
+1. Müraciət edə bilməlidir.
+2. Təsdiq aldıqdan sonra layihə əlavə edə bilməlidir.
+3. Satış statistikasına baxa bilməlidir.
+
+Admin:
+
+1. İstifadəçiləri idarə etməlidir.
+2. Müəllifləri təsdiqləməlidir.
+3. Layihələri yoxlamalıdır.
+4. Sifarişləri görməlidir.
+5. Refund müraciətlərini idarə etməlidir.
+
+## 35.2. Mərhələlər
+
+### Phase 1 — Project Foundation
+
+- Repository.
+- Frontend setup.
+- Backend setup.
+- Database connection.
+- Environment configuration.
+- Base architecture.
+
+### Phase 2 — Authentication
+
+- Register.
+- Login.
+- Google OAuth.
+- E-mail verification.
+- Password reset.
+- RBAC.
+
+### Phase 3 — Marketplace
+
+- Homepage.
+- Categories.
+- Project listing.
+- Project details.
+- Search.
+- Filters.
+
+### Phase 4 — Author System
+
+- Author application.
+- Portfolio.
+- Admin approval.
+- Author dashboard.
+- Project submission.
+
+### Phase 5 — Admin System
+
+- Admin dashboard.
+- Project review.
+- Author management.
+- User management.
+
+### Phase 6 — Payment and Orders
+
+- Checkout.
+- Payment integration.
+- Orders.
+- Commission calculation.
+- Download permissions.
+
+### Phase 7 — Reviews and Support
+
+- Reviews.
+- Ratings.
+- Comments.
+- Tickets.
+
+### Phase 8 — Finalization
+
+- Security tests.
+- Performance tests.
+- Backup.
+- Deployment.
+- Production release.
+
+## 35.3. İlkin buraxılış kataloqu
+
+20–30 yoxlanılmış layihə.
+
+## 35.4. MVP-dən sonraya saxlanıla biləcək funksiyalar
+
+- AI search.
+- Geniş forum sistemi.
+- Fiziki məhsullar.
+- İnkişaf etmiş müəllif bonusları.
+- Daha geniş analytics.
+- Mobil tətbiq.
+- Mikroservislərə keçid.
+
+---
+
+# 36. GƏLƏCƏK İNKİŞAF MƏRHƏLƏLƏRİ
+
+## Phase 2
+
+Marketplace-in böyüdülməsi:
+
+- Daha çox müəllif.
+- Daha çox layihə.
+- AI search.
+- Geniş analytics.
+- Loyallıq sistemi.
+- Müəllif bonusları.
+
+## Phase 3
+
+Fiziki məhsullar:
+
+- Məhsul kataloqu.
+- Stok idarəetməsi.
+- Sifariş.
+- Çatdırılma.
+- İzləmə.
+
+## Phase 4
+
+Beynəlxalq genişlənmə:
+
+- Yeni valyutalar.
+- Yeni bazarlar.
+- Beynəlxalq müəlliflər.
+- Çoxdilli interfeys.
+- Yeni ödəniş provayderləri.
+
+---
+
+# 37. RİSKLƏR VƏ ONLARIN İDARƏ EDİLMƏSİ
+
+| Risk | İdarəetmə |
+|---|---|
+| Keyfiyyətsiz layihələr | Admin approval |
+| Saxta müəlliflər | Verified Author |
+| Saxta rəylər | Verified Purchase |
+| Fayl təhlükəsizliyi | Antivirus və validation |
+| Ödəniş problemləri | Webhook və transaction yoxlaması |
+| Refund mübahisələri | Case-by-case review |
+| Müəllif hüquqları pozuntusu | Copyright policy |
+| İstifadəçi məlumatlarının sızması | RBAC, encryption, monitoring |
+| Platformanın yavaşlaması | Cache və optimizasiya |
+| Backup itkisi | Avtomatik backup və recovery testləri |
+
+---
+
+# 38. AÇIQ QALAN QƏRARLAR
+
+Aşağıdakı məsələlər əvvəlki söhbətlərdə yekunlaşdırılmayıb və ayrıca qərar tələb edir.
+
+## Biznes və əməliyyat
+
+1. Rəqəmsal layihələrin minimum və maksimum qiymət limitləri.
+2. Müəllif ödənişlərinin tezliyi.
+3. Müəllif ödənişlərinin minimum limiti.
+4. Ödəniş provayderi.
+5. Refund üçün müraciət müddəti.
+6. Loyallıq xallarının dəqiq hesablanması.
+7. Bonus proqramının qaydaları.
+8. Fiziki məhsulların MVP-yə daxil olub-olmaması.
+9. Çatdırılma şirkəti və tarifləri.
+10. Support üçün cavab müddəti.
+
+## Texniki
+
+1. Frontend TypeScript və ya JavaScript.
+2. Frontend build tool — Vite və ya başqa seçim.
+3. TanStack Query ilə yanaşı Zustand istifadə ediləcəkmi?
+4. API Documentation — Swagger, Postman, yoxsa hər ikisi?
+5. File Storage — Cloudflare R2 və ya başqa seçim.
+6. Redis və background jobs.
+7. E-mail provayderi.
+8. Hosting provayderi.
+9. CI/CD.
+10. Monitoring xidməti.
+11. Domain DNS və deployment konfiqurasiyası.
+12. Database backup siyasəti.
+13. Test framework.
+14. Logging sistemi.
+
+## Hüquqi
+
+1. Şirkət və vergi strukturu.
+2. Müəllif müqaviləsi.
+3. İstifadəçi müqaviləsi.
+4. Refund siyasətinin hüquqi yoxlanması.
+5. Şəxsi məlumatların işlənməsi qaydaları.
+6. Copyright complaint proseduru.
+
+Bu məsələlər hazırda təsdiqlənmiş qərarlar kimi göstərilməməlidir.
+
+---
+
+# 39. İCRA ARDICILLIĞI
+
+Feed Lab-ın hazırlanması üçün tövsiyə olunan ardıcıllıq:
+
+1. Master Project Plan təsdiqi.
+2. UI/UX Design System.
+3. Database Schema.
+4. Backend Architecture.
+5. Frontend Architecture.
+6. Authentication.
+7. Marketplace.
+8. Author System.
+9. Admin Panel.
+10. Payment Integration.
+11. File Storage.
+12. Reviews and Support.
+13. Security Testing.
+14. Deployment.
+15. Initial Catalogue.
+16. Beta Testing.
+17. Public Launch.
+
+Əsas prinsip: bütün funksiyaları eyni vaxtda hazırlamaq əvəzinə, əvvəlcə satış üçün lazım olan əsas sistem qurulmalıdır.
+
+---
+
+# 40. BÜTÜN MƏHSUL SUALLARI VƏ CAVABLARI
+
+Bu bölmədə əvvəlki məhsul planlaşdırması zamanı təsdiqlənmiş qərarlar ayrıca toplanır.
+
+Qeyd: Aşağıdakı siyahı qərarların məzmununu qoruyur. Əvvəlki sualların bəzilərinin tam sözbəsöz mətni bərpa olunmadığı üçün başlıqlar qərar mövzusuna uyğunlaşdırılıb.
+
+## Q1. Satın alınan layihənin istifadə lisenziyası necə olacaq?
+
+**Cavab:** Personal Use Only.
+
+İstifadəçi layihəni öyrənə, öz cihazında quraşdıra, şəxsi məqsədlərlə istifadə edə və şəxsi təcrübəsi üçün dəyişdirə bilər. Orijinal faylları yenidən paylaşmaq və ya satmaq olmaz.
+
+## Q2. Layihələr satışa çıxmazdan əvvəl təsdiqlənməlidirmi?
+
+**Cavab:** Admin Approval Required.
+
+Hər layihə admin tərəfindən yoxlanılmalı və təsdiqləndikdən sonra yayımlanmalıdır.
+
+## Q3. Platformanın ilkin cihaz strategiyası necə olacaq?
+
+**Cavab:** Web Only.
+
+İlk versiya desktop və mobil brauzerlərdə işləyəcək. Native mobil tətbiq ilkin scope-a daxil deyil.
+
+## Q4. Qeydiyyat və giriş necə həyata keçiriləcək?
+
+**Cavab:** E-mail + Password və Google Login.
+
+E-mail təsdiqi və şifrə bərpası da nəzərdə tutulur.
+
+## Q5. Müəllif olmaq üçün hansı sistem tətbiq olunacaq?
+
+**Cavab:** Verified Author.
+
+İstifadəçi portfolio və əvvəlki işlərini təqdim edir. Admin təsdiqindən sonra müəllif statusu əldə edir.
+
+## Q6. Platformanın əsas valyutası nə olacaq?
+
+**Cavab:** AZN.
+
+Digər valyutalarda təxmini qiymətlər göstərilə bilər. Əsas hesablaşma valyutası AZN-dir.
+
+## Q7. Axtarış sistemi necə olacaq?
+
+**Cavab:** All.
+
+Əsas açar söz axtarışı, Advanced Search və gələcəkdə AI Search nəzərdə tutulur.
+
+## Q8. Homepage hansı konsepsiyada hazırlanacaq?
+
+**Cavab:** Hybrid.
+
+Marketplace əsas vizual prioritet olacaq. Təhsil, icma və müəllif təqdimatları da yer alacaq.
+
+## Q9. Bildiriş sistemi necə olacaq?
+
+**Cavab:** Customizable Notifications.
+
+İstifadəçi bildiriş kateqoriyalarını özü seçə biləcək.
+
+## Q10. Reytinq və rəy sistemi necə olacaq?
+
+**Cavab:** Full Rating & Review System.
+
+1–5 ulduz, yazılı rəy, keyfiyyət meyarları, foto və video. Yalnız verified purchaser rəy yaza bilər.
+
+## Q11. Müəlliflərlə əlaqə və dəstək necə təşkil olunacaq?
+
+**Cavab:** Ticket modeli seçilib.
+
+Əvvəlki qərar çərçivəsində layihə sual-cavabları, şəxsi mesajlaşma və texniki dəstək ticket-ləri nəzərdə tutulub.
+
+## Q12. Pulsuz layihələr olacaqmı?
+
+**Cavab:** Limited Free Content.
+
+Pulsuz layihələr məhdud sayda və əsasən seçilmiş nümunələr şəklində olacaq. Əsas kataloq ödənişli layihələrdən ibarət olacaq.
+
+## Q13. İlkin layihə kateqoriyası hansı olacaq?
+
+**Cavab:** Electronics & IoT.
+
+Arduino, ESP32, Raspberry Pi, IoT, Smart Home, robototexnika, sensorlar, avtomatlaşdırma, PCB, NFC/RFID, Bluetooth və Wi-Fi.
+
+## Q14. İlkin layihələr hansı mənbələrdən əldə olunacaq?
+
+**Cavab:** Hybrid Sourcing.
+
+FEED Agency layihələri, dəvət edilən müəlliflər və sonrakı mərhələdə açıq müəllif müraciətləri.
+
+## Q15. Platformanın ilkin layihə kataloqunda neçə layihə olmalıdır?
+
+**Cavab:** 20–30 layihə.
+
+Bütün layihələr keyfiyyətli və yoxlanılmış olmalıdır.
+
+## Q16. Fiziki məhsullar hansı əraziyə çatdırılacaq?
+
+**Cavab:** Azerbaijan Only.
+
+İlkin çatdırılma ərazisi Azərbaycan olacaq.
+
+## Q17. Fiziki məhsulların qiyməti necə hesablanacaq?
+
+**Cavab:** Cost + Profit.
+
+Komponent, istehsal, əmək, qablaşdırma və digər maya dəyəri xərcləri nəzərə alınacaq.
+
+## Q18. Platformanın uzunmüddətli əsas prioriteti nə olacaq?
+
+**Cavab:** Marketplace Growth.
+
+Əsas diqqət marketplace-in böyüməsinə yönələcək.
+
+## Q19. İlkin marketinq strategiyası nə olacaq?
+
+**Cavab:** University Clubs.
+
+Elektronika, robototexnika, mühəndislik və texnologiya tələbə klubları əsas başlanğıc kanalı olacaq.
+
+## Q20. Universitetlərlə əməkdaşlıq hansı formada qurulacaq?
+
+**Cavab:** Student Clubs.
+
+İlkin mərhələdə tələbə klubları ilə əməkdaşlıq seçilib.
+
+## Q21. Müəlliflər üçün hansı təşviq sistemi olacaq?
+
+**Cavab:** All.
+
+80% müəllif / 20% platforma komissiyası, reytinqlər, badge-lər, featured author yerləşdirməsi və aktiv/keyfiyyətli müəlliflər üçün bonuslar.
+
+## Q22. İstifadəçi loyallıq sistemi necə olacaq?
+
+**Cavab:** Points.
+
+İstifadəçilər alış və müəyyən fəaliyyətlərə görə xal qazanacaq, xalları endirim üçün istifadə edə biləcəklər.
+
+## Q23. Rəqəmsal layihələr üçün refund siyasəti necə olacaq?
+
+**Cavab:** Case-by-case.
+
+Yanlış, natamam, işləməyən və ya təsvirə uyğun olmayan layihələr üzrə fərdi araşdırma aparılacaq.
+
+## Q24. Texniki dəstək komandası necə təşkil olunacaq?
+
+**Cavab:** Small Team.
+
+Admin və 1–2 moderator. Müəlliflər də texniki suallara cavab verməkdə iştirak edə bilərlər.
+
+## Q25. Platformanın təhlükəsizlik səviyyəsi necə olacaq?
+
+**Cavab:** Enterprise.
+
+2FA, RBAC, encryption, fayl yoxlaması, backup, monitoring, audit və penetration testing nəzərdə tutulur.
+
+## Q26. Platformanın adı nə olacaq?
+
+**Cavab:** Feed Lab.
+
+Əvvəlki yazılış düzəldilərək Feed Lab olaraq müəyyən edilib.
+
+## Q27. Platformanın domeni nə olacaq?
+
+**Cavab:** lab.feedagency.dev.
+
+FEED Agency-nin əsas domeni feedagency.dev ilə əlaqəli subdomain.
+
+## Q28. Vizual dizayn hansı istiqamətdə olacaq?
+
+**Cavab:** Hybrid.
+
+Professional və modern tech dizayn birləşdiriləcək.
+
+## Q29. Hansı rəng palitrası istifadə olunacaq?
+
+**Cavab:** FEED Agency Colors.
+
+FEED Agency-nin mövcud rəngləri əsas götürüləcək.
+
+## Q30. Logo necə hazırlanacaq?
+
+**Cavab:** FEED Logo + Dedicated LAB Symbol.
+
+Mövcud FEED loqosu qorunacaq, Feed Lab üçün ayrıca LAB simvolu hazırlanacaq.
+
+## Q31. Əsas hədəf auditoriya kim olacaq?
+
+**Cavab:** University Students.
+
+Əsasən elektronika, kompüter mühəndisliyi, elektrik-elektronika və əlaqəli sahələrin tələbələri.
+
+## Q32–Q41. Əvvəlki sualların arxiv qeydi
+
+Bu on sualın dəqiq mövzuları və istifadəçinin cavabları hazırda əldə olan söhbət xülasəsində görünmür.
+
+Onların cavablarını təxmin etmək əvəzinə bu bölmədə açıq saxlayıram. Bu, Q1–Q48 siyahısının tam arxiv transkripti olmadığını göstərir.
+
+## Q42. Platformanın təhlükəsizlik səviyyəsi necə olmalıdır?
+
+**Cavab:** Enterprise.
+
+Bu qərar ayrıca bərpa olunmuş arxiv qeydi ilə də təsdiqlənir. Yuxarıdakı Q25 ilə eyni qərardır; təkrar sayılmamalıdır.
+
+## Q43. Əvvəlki sualın arxiv qeydi
+
+Dəqiq sual və cavab hazırda bərpa olunmayıb.
+
+## Q44. Platformanın domeni nə olacaq?
+
+**Cavab:** lab.feedagency.dev.
+
+Bu qərar Q27 ilə eynidir və ayrıca arxiv qeydi ilə təsdiqlənir.
+
+## Q45. Vizual dizayn hansı istiqamətdə olacaq?
+
+**Cavab:** D — Hybrid.
+
+## Q46. Rəng palitrası necə olacaq?
+
+**Cavab:** E — FEED Agency Colors.
+
+## Q47. Logo necə olacaq?
+
+**Cavab:** D — FEED Logo + Dedicated LAB Symbol.
+
+## Q48. Əsas auditoriya kim olacaq?
+
+**Cavab:** A — University Students.
+
+**Məhsul qərarları üzrə qeyd:** Q42, Q44, Q45–Q48-in bir hissəsi əvvəlki qərarlarla eyni mövzuları təkrar edir. Bunlar ayrıca yeni tələblər deyil.
+
+---
+
+# 41. BÜTÜN TEXNİKİ SUALLAR VƏ CAVABLAR
+
+Bu bölmədə texniki stack seçimi zamanı verilən suallar və istifadəçinin təsdiqlədiyi cavablar qeyd olunur.
+
+## TQ1. Backend texnologiyası nə olacaq?
+
+**Cavab:** NestJS.
+
+Backend NestJS üzərində qurulacaq.
+
+## TQ2. Database texnologiyası nə olacaq?
+
+**Cavab:** MongoDB.
+
+Platformanın əsas database-i MongoDB olacaq.
+
+## TQ3. MongoDB inteqrasiyası üçün hansı texnologiyadan istifadə ediləcək?
+
+**Cavab:** Mongoose.
+
+NestJS və MongoDB arasında Mongoose istifadə olunacaq.
+
+## TQ4. Frontend texnologiyası nə olacaq?
+
+**Cavab:** React.
+
+Frontend React ilə hazırlanacaq.
+
+## TQ5. UI/CSS texnologiyası nə olacaq?
+
+**Cavab:** Tailwind CSS.
+
+Responsive və fərdiləşdirilə bilən interfeys üçün Tailwind CSS istifadə olunacaq.
+
+## TQ6. Frontend komponent kitabxanası nə olacaq?
+
+**Cavab:** shadcn/ui.
+
+Tailwind CSS ilə birlikdə shadcn/ui istifadə olunacaq.
+
+## TQ7. Frontend Routing texnologiyası nə olacaq?
+
+**Cavab:** React Router.
+
+Marketplace, istifadəçi paneli, müəllif paneli və admin panelinin marşrutları React Router ilə idarə olunacaq.
+
+## TQ8. State Management və Data Fetching necə olacaq?
+
+**Cavab:** TanStack.
+
+TanStack seçilib. TanStack Query server məlumatları, cache və API sorğularının idarə olunması üçün nəzərdə tutulur. Zustand əlavə olaraq təklif edilib, lakin ayrıca təsdiqlənməyib.
+
+## TQ9. Form Validation texnologiyası nə olacaq?
+
+**Cavab:** React Hook Form + Zod.
+
+Formların idarə olunması və məlumat yoxlaması üçün istifadə ediləcək.
+
+## TQ10. Authentication sistemi necə qurulacaq?
+
+**Cavab:** Custom Authentication.
+
+Autentifikasiya NestJS backend daxilində qurulacaq. Google OAuth, JWT, refresh token, e-mail verification və 2FA nəzərdə tutulur.
+
+## TQ11. API Communication necə olacaq?
+
+**Cavab:** REST API.
+
+Frontend və backend REST API vasitəsilə əlaqə saxlayacaq.
+
+## TQ12. API Documentation üçün hansı texnologiya istifadə ediləcək?
+
+**Status:** Hələ təsdiqlənməyib.
+
+Təklif olunan seçimlər:
+
+- Swagger / OpenAPI.
+- Postman.
+- Swagger + Postman.
+
+Tövsiyə: Swagger + Postman.
+
+---
+
+# 42. SON YEKUN
+
+## 42.1. Feed Lab-ın təsdiqlənmiş texniki stack-i
+
+| № | Sahə | Qərar |
+|---:|---|---|
+| 1 | Backend | NestJS |
+| 2 | Database | MongoDB |
+| 3 | MongoDB Integration | Mongoose |
+| 4 | Frontend | React |
+| 5 | UI/CSS | Tailwind CSS |
+| 6 | UI Components | shadcn/ui |
+| 7 | Routing | React Router |
+| 8 | State/Data | TanStack |
+| 9 | Form Validation | React Hook Form + Zod |
+| 10 | Authentication | Custom |
+| 11 | API Communication | REST |
+
+## 42.2. Feed Lab-ın təsdiqlənmiş biznes modeli
+
+| Sahə | Qərar |
+|---|---|
+| Məhsul | Digital Project Marketplace |
+| İlk kateqoriya | Electronics & IoT |
+| Əsas valyuta | AZN |
+| Müəllif payı | 80% |
+| Platforma payı | 20% |
+| Müəllif sistemi | Verified Author |
+| Layihə təsdiqi | Admin Approval |
+| İlkin kataloq | 20–30 layihə |
+| Lisenziya | Personal Use Only |
+| Refund | Case-by-case |
+| Loyallıq | Points |
+| Marketinq | University Clubs |
+| Əsas auditoriya | University Students |
+| Təhlükəsizlik | Enterprise |
+| Platforma | Web Only |
+
+## 42.3. Əsas prinsip
+
+Feed Lab-ın ilkin versiyası işlək, təhlükəsiz və keyfiyyətli rəqəmsal marketplace olmalıdır.
+
+İlk mərhələdə bütün gələcək funksiyaları hazırlamaq əvəzinə, əsas satış dövrəsi qurulmalıdır:
+
+**Müəllif müraciəti → Müəllif təsdiqi → Layihə təqdimatı → Admin yoxlaması → Layihənin yayımlanması → Satınalma → Ödəniş → Fayllara giriş → Rəy.**
+
+Bu dövrə problemsiz işlədikdən sonra platformanın digər funksiyaları genişləndirilə bilər.
+
+---
+
+**FEED AGENCY**  
+**FEED LAB — MASTER PROJECT PLAN v1.0**
+
+*Bu sənəd əvvəlki qərarların birləşdirilmiş layihə planıdır. Təsdiqlənmiş qərarlar, texniki təkliflər və açıq qalan məsələlər ayrı göstərilmişdir.*
