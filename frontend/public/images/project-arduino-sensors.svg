@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none">
+  <rect width="640" height="400" fill="#F1F5F9"/>
+  <ellipse cx="320" cy="336" rx="200" ry="22" fill="#CBD5E1" opacity="0.55"/>
+  <!-- Main green sensor carrier PCB -->
+  <rect x="135" y="116" width="370" height="206" rx="14" fill="#059669" stroke="#047857" stroke-width="3"/>
+  <rect x="150" y="130" width="340" height="178" rx="8" fill="#10B981" opacity="0.22"/>
+  <!-- Mounting holes -->
+  <circle cx="155" cy="136" r="7" fill="#F1F5F9" stroke="#F59E0B" stroke-width="3"/>
+  <circle cx="485" cy="136" r="7" fill="#F1F5F9" stroke="#F59E0B" stroke-width="3"/>
+  <circle cx="155" cy="302" r="7" fill="#F1F5F9" stroke="#F59E0B" stroke-width="3"/>
+  <circle cx="485" cy="302" r="7" fill="#F1F5F9" stroke="#F59E0B" stroke-width="3"/>
+  <!-- DHT22 white sensor block -->
+  <rect x="178" y="96" width="66" height="94" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="190" y="112" width="42" height="48" rx="3" fill="#E2E8F0"/>
+  <path d="M196 124 H226 M196 136 H226 M196 148 H226" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <!-- MQ gas sensor metallic cylinder -->
+  <circle cx="304" cy="138" r="34" fill="#CBD5E1" stroke="#94A3B8" stroke-width="3"/>
+  <circle cx="304" cy="138" r="22" fill="#64748B"/>
+  <circle cx="304" cy="138" r="14" fill="#94A3B8" opacity="0.6"/>
+  <!-- MCU IC -->
+  <rect x="276" y="206" width="76" height="76" rx="6" fill="#1E293B"/>
+  <rect x="292" y="222" width="44" height="44" rx="4" fill="#334155"/>
+  <!-- Copper PCB traces -->
+  <path d="M210 190 V244 H276" stroke="#A7F3D0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M352 244 H406 V196" stroke="#A7F3D0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M314 172 V206" stroke="#A7F3D0" stroke-width="3" stroke-linecap="round"/>
+  <!-- OLED display module on right -->
+  <rect x="378" y="122" width="100" height="78" rx="8" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  <path d="M394 150 H456" stroke="#147DF5" stroke-width="4" stroke-linecap="round"/>
+  <path d="M394 166 H442" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/>
+  <!-- Pin row -->
+  <rect x="186" y="286" width="136" height="20" rx="4" fill="#0F172A"/>
+  <g fill="#F59E0B">
+    <circle cx="202" cy="296" r="3.5"/><circle cx="222" cy="296" r="3.5"/><circle cx="242" cy="296" r="3.5"/><circle cx="262" cy="296" r="3.5"/><circle cx="282" cy="296" r="3.5"/><circle cx="302" cy="296" r="3.5"/>
+  </g>
+</svg>

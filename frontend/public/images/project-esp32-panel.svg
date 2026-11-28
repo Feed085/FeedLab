@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none">
+  <rect width="640" height="400" fill="#F1F5F9"/>
+  <rect x="60" y="34" width="520" height="332" rx="18" fill="#E2E8F0" opacity="0.45"/>
+  <!-- Top wiring -->
+  <path d="M235 0 V74" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
+  <path d="M265 0 V74" stroke="#1E293B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M375 0 V74" stroke="#147DF5" stroke-width="6" stroke-linecap="round"/>
+  <!-- White enclosure -->
+  <rect x="130" y="64" width="380" height="270" rx="20" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+  <rect x="148" y="82" width="344" height="234" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <!-- Corner screws -->
+  <circle cx="152" cy="86" r="5" fill="#94A3B8"/>
+  <circle cx="488" cy="86" r="5" fill="#94A3B8"/>
+  <circle cx="152" cy="312" r="5" fill="#94A3B8"/>
+  <circle cx="488" cy="312" r="5" fill="#94A3B8"/>
+  <!-- ESP32 board on left -->
+  <rect x="172" y="132" width="144" height="128" rx="8" fill="#1E293B"/>
+  <rect x="184" y="154" width="68" height="84" rx="4" fill="#94A3B8"/>
+  <rect x="192" y="164" width="52" height="58" rx="2" fill="#CBD5E1"/>
+  <!-- Antenna trace -->
+  <path d="M268 156 H298 V170 H274 V184 H298 V198 H274 V212 H298" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Pin headers -->
+  <g fill="#F59E0B">
+    <circle cx="184" cy="142" r="3"/><circle cx="198" cy="142" r="3"/><circle cx="212" cy="142" r="3"/><circle cx="226" cy="142" r="3"/><circle cx="240" cy="142" r="3"/><circle cx="254" cy="142" r="3"/><circle cx="268" cy="142" r="3"/><circle cx="282" cy="142" r="3"/><circle cx="296" cy="142" r="3"/>
+    <circle cx="184" cy="250" r="3"/><circle cx="198" cy="250" r="3"/><circle cx="212" cy="250" r="3"/><circle cx="226" cy="250" r="3"/><circle cx="240" cy="250" r="3"/><circle cx="254" cy="250" r="3"/><circle cx="268" cy="250" r="3"/><circle cx="282" cy="250" r="3"/><circle cx="296" cy="250" r="3"/>
+  </g>
+  <!-- MicroUSB -->
+  <rect x="164" y="182" width="16" height="28" rx="3" fill="#CBD5E1"/>
+  <!-- OLED / TFT display on right -->
+  <rect x="344" y="114" width="128" height="114" rx="8" fill="#0F172A" stroke="#334155" stroke-width="3"/>
+  <rect x="356" y="126" width="104" height="90" rx="4" fill="#1E293B"/>
+  <path d="M372 152 H442" stroke="#147DF5" stroke-width="4" stroke-linecap="round"/>
+  <path d="M372 170 H422" stroke="#10B981" stroke-width="4" stroke-linecap="round"/>
+  <path d="M372 188 H434" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  <!-- Tactile buttons -->
+  <circle cx="380" cy="272" r="14" fill="#334155"/>
+  <circle cx="380" cy="272" r="7" fill="#0F172A"/>
+  <circle cx="436" cy="272" r="14" fill="#334155"/>
+  <circle cx="436" cy="272" r="7" fill="#0F172A"/>
+  <!-- Green connector header -->
+  <rect x="200" y="64" width="84" height="22" rx="4" fill="#059669"/>
+  <circle cx="218" cy="75" r="4" fill="#A7F3D0"/>
+  <circle cx="242" cy="75" r="4" fill="#A7F3D0"/>
+  <circle cx="266" cy="75" r="4" fill="#A7F3D0"/>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "name": "feedlab-e2e-tests",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "FeedLab Standalone Opaque-Box E2E Test Suite",
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "node runner.ts",
+    "test:api": "node runner.ts --suite=api",
+    "test:browser": "node runner.ts --suite=browser",
+    "test:browser:selfcheck": "node runner.ts --suite=browser --grep=browser-selfcheck",
+    "test:tier1": "node runner.ts --tier=1",
+    "test:tier2": "node runner.ts --tier=2",
+    "test:tier3": "node runner.ts --tier=3",
+    "test:tier4": "node runner.ts --tier=4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "playwright": "^1.50.0",
+    "typescript": "^5.7.2"
+  }
+}

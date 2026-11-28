@@ -1,0 +1,23 @@
+{
+  "name": "feedlab-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Feed Lab Digital Engineering Project Marketplace",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "test": "npm --prefix backend test && npm --prefix frontend test",
+    "test:backend": "npm --prefix backend test",
+    "test:frontend": "npm --prefix frontend test",
+    "test:e2e": "node tests/e2e/runner.ts",
+    "test:e2e:tier1": "node tests/e2e/runner.ts --tier=1",
+    "test:e2e:tier2": "node tests/e2e/runner.ts --tier=2",
+    "test:e2e:tier3": "node tests/e2e/runner.ts --tier=3",
+    "test:e2e:tier4": "node tests/e2e/runner.ts --tier=4",
+    "lint": "echo \"No root lint configured\"",
+    "start:backend": "npm --prefix backend run start:dev",
+    "start:frontend": "npm --prefix frontend run dev"
+  }
+}
